@@ -9,7 +9,7 @@
     <meta name="author" content="Yuri Rafael de Oliveira">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
@@ -26,10 +26,10 @@
 <body>
     <header>
         <div id="otherPages">
-            <a href="index.html">Binary to Decimal</a>
-            <a href="html/dec2bin.html">Decimal to Binary</a>
-            <a href="html/oct2dec.html">Octal to Decimal</a>
-            <a href="html/hex2dec.html">Hexadecimal to Decimal</a>
+            <a href="../index.html">Binary to Decimal</a>
+            <a href="dec2bin.html">Decimal to Binary</a>
+            <a href="oct2dec.html">Octal to Decimal</a>
+            <a href="hex2dec.html">Hexadecimal to Decimal</a>
         </div>
     </header>
 
@@ -37,7 +37,7 @@
     <section class="context">
         
         <select id="leftSelect">
-            <option class="inputSelectOption" value="bin">Binary</option>
+            <option class="inputSelectOption" value="oct">Octal</option>
         </select>
 
         <button id="showResult">=</button>
@@ -53,73 +53,73 @@
         <p id="result">Result</p>
     </main>
 
-    <h2>Binary to decimal conversion table</h2>
+    <h2>Octal to decimal conversion table</h2>
     <section class="article-content">
 
         <table>
             
             <tr>
-              <th>Binary</th>
+              <th>Octal</th>
               <th>Decimal</th>
             </tr>
             
             <tr>
-              <td>00000000</td>
+              <td>0</td>
               <td>0</td>
             </tr>
             
             <tr>
-              <td>00000001</td>
+              <td>1</td>
               <td>1</td>
             </tr>
 
             <tr>
-                <td>00000010</td>
+                <td>2</td>
                 <td>2</td>
             </tr>
               
             <tr>
-                <td>00000011</td>
+                <td>3</td>
                 <td>3</td>
             </tr>
 
             <tr>
-                <td>00000100</td>
+                <td>4</td>
                 <td>4</td>
               </tr>
               
               <tr>
-                <td>00000101</td>
+                <td>5</td>
                 <td>5</td>
             </tr>
 
             <tr>
-                <td>00000110</td>
+                <td>6</td>
                 <td>6</td>
             </tr>
               
             <tr>
-                <td>00000111</td>
+                <td>7</td>
                 <td>7</td>
             </tr>
 
             <tr>
-                <td>00001000</td>
+                <td>10</td>
                 <td>8</td>
             </tr>
               
             <tr>
-                <td>00001001</td>
+                <td>11</td>
                 <td>9</td>
             </tr>
 
             <tr>
-                <td>00001010</td>
+                <td>12</td>
                 <td>10</td>
             </tr>
               
             <tr>
-                <td>00001011</td>
+                <td>13</td>
                 <td>11</td>
             </tr>
 
@@ -128,58 +128,58 @@
         <table>
             
             <tr>
-              <th>Binary</th>
+              <th>Octal</th>
               <th>Decimal</th>
             </tr>
             
             <tr>
-                <td>00001100</td>
+                <td>14</td>
                 <td>12</td>
             </tr>
               
             <tr>
-                <td>00001101</td>
+                <td>15</td>
                 <td>13</td>
             </tr>
 
             <tr>
-                <td>00001110</td>
+                <td>16</td>
                 <td>14</td>
             </tr>
               
             <tr>
-                <td>00001111</td>
+                <td>17</td>
                 <td>15</td>
             </tr>
 
             <tr>
-                <td>00010000</td>
+                <td>20</td>
                 <td>16</td>
             </tr>
               
             <tr>
-                <td>00100000</td>
-                <td>32</td>
+                <td>144</td>
+                <td>100</td>
             </tr>
 
             <tr>
-                <td>01000000</td>
-                <td>64</td>
+                <td>1750</td>
+                <td>1000</td>
             </tr>
               
             <tr>
-                <td>10000000</td>
-                <td>128</td>
+                <td>23420</td>
+                <td>10000</td>
             </tr>
 
             <tr>
-                <td>11111111</td>
-                <td>255</td>
+                <td>303240</td>
+                <td>100000</td>
             </tr>
               
             <tr>
-                <td>100000000</td>
-                <td>256</td>
+                <td>3641100</td>
+                <td>1000000</td>
             </tr>
 
         </table>
@@ -190,8 +190,8 @@
         <a href="https://github.com/YuriRafael2">My Github</a>
         <p>Developed by Yuri Rafael</p>
     </footer>
-
-    <script src="scripts/bin2Dec.js"></script>
+    
+    <script src="../scripts/oct2Dec.js"></script>
     
 </body>
 </html>

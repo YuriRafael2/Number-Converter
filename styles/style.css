@@ -11,11 +11,9 @@ html, body {
 }
 
 .ads {
-    display: inline-block;
     width: 620px;
     text-align: center;
     margin: 10px auto;
-    color: white;
 }
 
 header {

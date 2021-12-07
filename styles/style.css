@@ -28,7 +28,7 @@ h1 {
     width: 100%;
     font-weight: 300;
     font-size: 50px;
-    margin: 75px auto;
+    margin: 75px auto 0px auto;
     color: white;
     text-align: center;
 }
@@ -41,6 +41,7 @@ h1 {
     display: flex;
     position: fixed;
     border-bottom: 3px solid #202124;
+    z-index:0
 }
 
 header a {

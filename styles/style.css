@@ -13,7 +13,7 @@ html, body {
 .ads {
     display: inline-block;
     width: 620px;
-    height: 420px;
+    text-align: center;
     margin: 10px auto;
     color: white;
 }

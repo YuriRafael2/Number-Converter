@@ -10,12 +10,6 @@ html, body {
     background-color: #202124;
 }
 
-.ads {
-    width: 620px;
-    text-align: center;
-    margin: 10px auto;
-}
-
 header {
     display: flex;
     flex-wrap: wrap;
